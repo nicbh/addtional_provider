@@ -1,7 +1,7 @@
 rule-providers:
   customization:
     type: http
-    url: "https://raw.githubusercontent.com/../Google.yaml"
+    url: "https://raw.githubusercontent.com/nicbh/addtional_provider/refs/heads/main/rules.yaml"
     interval: 2000000
     proxy: 🍃 Proxies
     behavior: classical
