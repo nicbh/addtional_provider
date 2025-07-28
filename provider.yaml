@@ -1,0 +1,13 @@
+rule-providers:
+  customization:
+    type: http
+    url: "https://raw.githubusercontent.com/../Google.yaml"
+    interval: 2000000
+    proxy: 🍃 Proxies
+    behavior: classical
+    format: yaml
+    size-limit: 0
+
+rules:
+  - RULE-SET,customization,DIRECT
+
